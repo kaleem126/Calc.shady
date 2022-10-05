@@ -78,17 +78,24 @@ int main()
     }
     else if (op==7)
     {
-        printf("You chose Square Root\n"):
+        printf("You chose Square Root\n");
         printf("Enter Number: ");
         scanf("%d" ,&n1);
-         for()
+         for(i=0;i<n1;i++)
          {
-             y=i*i;
-             if(y==num1)
-             {
+            y=i*i;
+            if(y==n1)
+              {
                  break;
-             }
-             
+              }
+         }
+          if (y==n1)
+              printf("Root of %d is %d", n1, i);
+          else
+              printf("No real root found");
+     }
+     
+        
      else
         {
          printf("Wrong Command");
