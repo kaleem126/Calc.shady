@@ -19,7 +19,6 @@
 4. **Technologies Used:**
    - C programming language
    - Integrated development environment (IDE) or text editor used for coding
-   - Version control (if applicable)
 
 5. **Learning Outcome:**
    Through this project, gained valuable experience in:
